@@ -1,0 +1,24 @@
+{
+  "name": "Play-Auth-Slick-Seed",
+  "description": "Seed project to show how Silhouette can be implemented into a Play Framework application.",
+  "keywords": [
+    "Play",
+    "Silhouette",
+    "Slick",
+    "Postgresql"
+  ],
+  "website": "https://github.com/doron123/Play-Auth-Slick-Seed",
+  "repository": "https://github.com/doron123/Play-Auth-Slick-Seed",
+  "success_url": "/",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/doron123/Play-Auth-Slick-Seed.git",
+    "PLAY_CONF_FILE": "application.prod.conf",
+    "PLAY_APP_SECRET": "changeme",
+    "FACEBOOK_CLIENT_ID": "",
+    "FACEBOOK_CLIENT_SECRET": "",
+    "GOOGLE_CLIENT_ID": "",
+    "GOOGLE_CLIENT_SECRET": "",
+    "TWITTER_CONSUMER_KEY": "",
+    "TWITTER_CONSUMER_SECRET": ""
+  }
+}

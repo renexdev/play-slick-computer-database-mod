@@ -1,0 +1,4 @@
+export SBT_OPTS="$SBT_OPTS -Dhttp.proxyHost=myproxy-Dhttp.proxyPort=myport"
+
+activator -Dhttp.prproxyHost="proxy2.cab.cnea.gov.ar" -Dhttp.proxyPort="3128" -Dhttps.proxyHost="proxy2.cab.cnea.gov.ar" -Dhttps.proxyPort="3128" -Dhttp.nonProxyHosts="localhost|127.0.0.1" ~run
+
